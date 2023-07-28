@@ -22,6 +22,11 @@ figure{
     align-items: center;
     height: 20vh;
     color: #ffffff;
+    font-family: 'Roboto' sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .redes{
@@ -30,21 +35,67 @@ figure{
     gap: 28px;
 }
 
-main{
+.sectionmain1{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 35vh;
-}
-
-.sectionmain1{
-    
+    height: 95vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("./assets/img/dog1.png");
+    color: #ffffff;
+    padding-bottom: 38vh;
 }
 
 h1{
+    font-size: 50px;
+    font-family: 'roboto' sans-serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sectionmain2{
+    display: flex;
     align-items: center;
-    white-space: pre-line;
+    height: 90vh;
+    padding-left: 26px;
+    background-size: 70%;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-color: #f4f2f3;
+    background-image: url("./assets/img/dog2.png");
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40vw;
+    height: 44vh;
+}
+
+.text-main2{
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto' Serif;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-mainp2{
+    color: #000;
+    font-family: 'Roboto' serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 button{
@@ -52,6 +103,27 @@ button{
     height: 12vh;
     background-color: #3a342f;
     color: #f4f2f3;
-    border-radius: 24px;
+    border-radius: 15px;
+    border: none;
+}
+
+.sectionmain3{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    padding-left: 26px;
+    background-size: 50%;
+    background-position: center left;
+    background-repeat: no-repeat;
+    background: linear-gradient(288deg, #E54979 0%, rgba(240, 81, 130, 0.00) 100%);
+    background-image: url("./assets/img/dog3.png");
+}
+
+.button2{
+    width: 20vw;
+    height: 12vh;
+    background-color: #f4f2f3 ;
+    color: #3a342f;
+    border-radius: 15px;
     border: none;
 }
