@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 header{
@@ -71,7 +72,7 @@ h1{
     background-image: url("./assets/img/dog2.png");
 }
 
-div{
+.sectionmain2 div{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -98,32 +99,183 @@ div{
     line-height: normal;
 }
 
-button{
-    width: 20vw;
-    height: 12vh;
+.button-dog2 {
+    width: 16vw;
+    height: 8vh;
     background-color: #3a342f;
     color: #f4f2f3;
-    border-radius: 15px;
+    border-radius: 30px;
+    font-size: 4px solid;
     border: none;
+    cursor: pointer;
 }
 
-.sectionmain3{
+.sectionmain3 {
     display: flex;
-    align-items: center;
-    height: 90vh;
-    padding-left: 26px;
-    background-size: 50%;
-    background-position: center left;
-    background-repeat: no-repeat;
-    background: linear-gradient(288deg, #E54979 0%, rgba(240, 81, 130, 0.00) 100%);
+    align-items: flex-end;
+    justify-content: center;
     background-image: url("./assets/img/dog3.png");
+    padding-bottom: 12vh;
+    padding-right: 20vw;
+    background-repeat: no-repeat;
+    color: #ffffff;
 }
 
-.button2{
-    width: 20vw;
-    height: 12vh;
+.sectionmain3 div{
+    font-family: 'Roboto' serif;
+    margin: 10vw;
+    width: 5vw;
+}
+
+.text-mainp3{
+    color: #FFF;
+    font-family: 'Roboto' serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button-dog3 {
+    width: 16vw;
+    height: 8vh;
     background-color: #f4f2f3 ;
     color: #3a342f;
-    border-radius: 15px;
+    border-radius: 30px;
+    font-size: 4px solid;
     border: none;
+    cursor: pointer;
+}
+
+.sectionmain4{
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    color: #FD6A9A;
+}
+
+.apoio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 60%;
+}
+
+span{
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3{
+    font-family: 'Roboto' Serif;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    background-color: #EB4A7B;
+    gap: 90px;
+    padding-left: 60px;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+}
+
+footer h4{
+    color: #FFF;
+    font-family: 'Roboto' Serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer a{
+    color: #FFF;
+    font-family: 'Roboto' serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.Logo-footer, .redes-footer{
+    display: none;
+}
+
+@media (max-width:500px){
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+    .redes1{
+        display: none;
+    }
+    
+    .sectionmain2{
+        display: flex;
+        padding-bottom: 50px;
+        align-items: center;
+        flex-direction: column;
+        background-image: url("./assets/img/dog2\ mobile.png");
+        background-size: 60%;
+        background-position: center;
+    }
+
+    .text-main2{
+        font-size: 20px;
+    }
+
+    .text-mainp2{
+        font-size: 15px;
+    }
+
+    .button-dog2{
+        font-size: 8px;
+    }
+
+    .sectionmain3{
+        display: flex;
+        align-items: flex-start;
+        padding-left: 30px;
+        background-image: url("./assets/img/dog3\ mobile.png");
+    }
+
+    .text-main3{
+        font-size: 20px;
+    }
+
+    .text-mainp3{
+        font-size: 15px;
+    }
+
+    .button-dog3{
+        font-size: 8px;
+    }
+    
+    footer h4{
+        text-align: center;
+    }
+    footer a{
+        text-align: center;
+    }
+
+    .Logo-footer, .redes-footer{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 25px;
+    }
 }
